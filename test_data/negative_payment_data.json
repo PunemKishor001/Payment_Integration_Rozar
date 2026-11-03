@@ -1,0 +1,65 @@
+
+[
+    {
+        "test_id": "NEG_001",
+        "test_name": "Visa Debit Card_InvalidCardnumber",
+        "scenario": "invalid_card",
+        "firstname": "Kishor",
+        "lastname": "Punem",
+        "zip_code": "560019",
+        "mobilenumber": "9146537838",
+        "cardnumber": "4100 2800 0000 1009",
+        "ExpiryDate": "11/30",
+        "cvvnumber": "729"
+    },
+      {
+        "test_id": "NEG_002",
+        "test_name": "Visa Debit Card_Expired card",
+        "scenario": "expired_card",
+        "firstname": "Kishor",
+        "lastname": "Punem",
+        "zip_code": "560019",
+        "mobilenumber": "9146537838",
+        "cardnumber": "4100 2800 0000 1007",
+        "ExpiryDate": "11/3",
+        "cvvnumber": "729"
+    },
+  {
+        "test_id": "NEG_003",
+        "test_name": "Visa Debit Card_InvlaidCvv",
+        "scenario": "Invlaid_CVv",
+        "firstname": "Kishor",
+        "lastname": "Punem",
+        "zip_code": "560019",
+        "mobilenumber": "9146537838",
+        "cardnumber": "4100 2800 0000 1007",
+        "ExpiryDate": "11/35",
+        "cvvnumber": "72"
+    },
+    {
+        "test_id": "NEG_004",
+        "test_name": "Credit Card - OTP",
+        "scenario": "Invlaid_otp",
+        "firstname": "MyName",
+        "lastname": "Kishor",
+        "zip_code": "560039",
+        "mobilenumber": "9146537879",
+        "cardnumber": "5555 5100 0008 1006",
+        "ExpiryDate": "11/30",
+        "cvvnumber": "729",
+        "otp": "10"
+    },
+  {
+        "test_id": "NEG_005",
+        "test_name": "Credit Card - Empty_otp",
+        "scenario": "Empty_otp",
+        "firstname": "MyName",
+        "lastname": "Kishor",
+        "zip_code": "560039",
+        "mobilenumber": "9146537879",
+        "cardnumber": "5555 5100 0008 1006",
+        "ExpiryDate": "11/30",
+        "cvvnumber": "729",
+        "otp": ""
+    }
+]
